@@ -45,11 +45,11 @@ body {
 
 .navbar a {
     display: block;
-    padding: 20px 20px;
+    padding: 15px 15px;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 1em;
 }
 
 .navbar a:hover {
@@ -216,6 +216,21 @@ ol{
 }
 
 @media (max-width: 768px) {
+
+    p, ol{
+        font-size: 15px;
+        padding: 0 60px;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .navbar a{
+        font-size: 3px;
+        padding: 10px 10px;
+        text-transform: none;
+    }
 
     .title {
         margin-bottom: 0;
